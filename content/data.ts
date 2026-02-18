@@ -238,6 +238,6 @@ export const contactInfo = {
   address: foundationInfo.address,
   email: foundationInfo.email,
   phone: foundationInfo.phone,
-  hours: "Pon-Pt, 9:00-17:00",
+  hours: "Środa 10:00-14:00, Czwartek 10:00-14:00",
   mapNote: "Spotkania po wcześniejszym umówieniu; preferujemy kontakt mailowy/telefoniczny.",
 };
