@@ -239,5 +239,5 @@ export const contactInfo = {
   email: foundationInfo.email,
   phone: foundationInfo.phone,
   hours: "Poniedziałek 9:00-14:00, Środa 9:00-14:00, Czwartek 9:00-14:00, Piątek 9:00-14:00",
-  mapNote: "Spotkania po wcześniejszym umówieniu; preferujemy kontakt mailowy/telefoniczny.",
+  mapNote: "Spotkania po wcześniejszym umówieniu; preferujemy kontakt mailowy.",
 };
