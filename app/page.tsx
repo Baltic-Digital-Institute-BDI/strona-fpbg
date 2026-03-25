@@ -4,7 +4,8 @@ import { StatusBadge } from "@/components/StatusBadge";
 import { foundationInfo, values, projects } from "@/content/data";
 
 export default function Home() {
-  const featuredProject = projects[0];
+  const featuredProject =
+    projects.find((project) => project.status === "W toku") ?? projects[0];
 
   // Strona główna prezentuje esencję FPbG: misję mostów, wartości i filary strategii.
   return (
@@ -92,7 +93,10 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-6 flex flex-wrap gap-3">
-            <StatusBadge label={featuredProject.status} tone="success" />
+            <StatusBadge
+              label={featuredProject.status}
+              tone={featuredProject.status === "Zrealizowany" ? "success" : "info"}
+            />
             <Link
               href={`/projekty/${featuredProject.slug}`}
               className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white shadow-md shadow-accent/30 transition hover:bg-accent-hover"

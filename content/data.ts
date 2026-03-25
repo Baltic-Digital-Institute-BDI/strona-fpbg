@@ -135,6 +135,51 @@ export const strategyPillars: StrategyPillar[] = [
 
 export const projects: Project[] = [
   {
+    slug: "rozwoj-umiejetnosci",
+    title:
+      "Rozwój umiejętności podstawowych mieszkańców Trójmiasta i powiatów sąsiadujących",
+    status: "W toku",
+    period: "2025-2027",
+    strategicPillar: "Filar I: Spójność Społeczna na Pomorzu",
+    summary:
+      "Partnerski projekt FPBG, Baltic Digital Institute i Kaszubskiego Związku Pracodawców rozwija kompetencje cyfrowe mieszkańców Pomorza oraz wspiera uczestników wymagających wsparcia integracyjnego.",
+    metrics: [
+      { label: "Uczestnicy", value: "65" },
+      { label: "Wartość projektu", value: "708 250 PLN" },
+      { label: "Status", value: "Rekrutacja i realizacja" },
+    ],
+    beneficiaries:
+      "Osoby dorosłe z Pomorza, w tym osoby 50+, osoby o niskich kwalifikacjach, osoby bezrobotne i uchodźcy",
+    context:
+      "Projekt odpowiada na potrzebę wzmocnienia podstawowych kompetencji cyfrowych, matematycznych i informacyjnych mieszkańców Pomorza. FPBG uczestniczy w nim jako partner wspierający dostępność i komponent integracyjny.",
+    action:
+      "Współtworzymy ścieżkę wsparcia uczestników, pomagamy w obniżaniu barier wejścia do projektu oraz wspieramy osoby z doświadczeniem migracyjnym i potrzebami językowymi.",
+    partners: [
+      "Baltic Digital Institute",
+      "Fundacja Przyjaźń bez Granic",
+      "Kaszubski Związek Pracodawców",
+    ],
+    fundingSources: [
+      "Fundusze Europejskie dla Pomorza 2021-2027",
+      "Europejski Fundusz Społeczny Plus (EFS+)",
+      "wkład własny partnerów projektu",
+    ],
+    auditLinks: [
+      {
+        label: "Strona projektu w BDI",
+        url: "https://www.baltic-digital.org/projekty/rozwoj-umiejetnosci",
+      },
+      {
+        label: "Regulamin rekrutacji",
+        url: "https://drive.google.com/file/d/1tHVxybecczaYGqLGY9q1gaiRPaLS3ei_/view?usp=sharing",
+      },
+      {
+        label: "Formularz zgłoszeniowy online",
+        url: "https://forms.gle/8s6fgPqPWx2ob4X67",
+      },
+    ],
+  },
+  {
     slug: "wozki-rehabilitacyjne-2024",
     title: "30 wózków rehabilitacyjnych dla szpitala w Dzierżążnie",
     status: "Zrealizowany",

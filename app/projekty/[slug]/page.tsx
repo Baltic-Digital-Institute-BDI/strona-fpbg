@@ -8,7 +8,9 @@ type Props = {
 };
 
 export function generateStaticParams() {
-  return projects.map((project) => ({ slug: project.slug }));
+  return projects
+    .filter((project) => project.slug !== "rozwoj-umiejetnosci")
+    .map((project) => ({ slug: project.slug }));
 }
 
 export default async function ProjectPage({ params }: Props) {
