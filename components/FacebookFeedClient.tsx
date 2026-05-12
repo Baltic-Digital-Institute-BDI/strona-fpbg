@@ -153,6 +153,9 @@ export function FacebookFeedClient({
       <div
         ref={widgetContainerRef}
         className="fb-feed-scroll relative max-h-[760px] overflow-y-auto"
+        role="region"
+        aria-label="Lista postów z Facebooka Fundacji"
+        tabIndex={0}
         style={{
           scrollbarGutter: "stable both-edges",
           scrollbarWidth: "thin",

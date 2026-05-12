@@ -1,0 +1,1879 @@
+{
+  "url": "http://localhost:3000/aktualnosci",
+  "timestamp": "2026-05-12T07:54:59.517Z",
+  "allViolations": [
+    {
+      "id": "aria-required-children",
+      "impact": "critical",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag131",
+        "EN-301-549",
+        "EN-9.1.3.1",
+        "RGAAv4",
+        "RGAA-9.3.1"
+      ],
+      "description": "Ensure elements with an ARIA role that require child roles contain them",
+      "help": "Certain ARIA roles must contain particular children",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/aria-required-children?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-required-children",
+              "data": {
+                "messageKey": "unallowed",
+                "values": "a[tabindex], table[tabindex], img[tabindex], [role=button]"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/846975475099961?ref=embed_post\" target=\"_blank\" id=\"u_0_b_lU\"></a>",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "#u_0_b_lU"
+                  ]
+                },
+                {
+                  "html": "<table class=\"uiGrid _51mz\" cellspacing=\"0\" cellpadding=\"0\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "table"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/846975475099961?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yA/r/LCqvjOAxZBm.webp\" alt=\"\" width=\"24\" height=\"24\"></a>",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "._302 > span > a[target=\"_blank\"]"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/846975475099961?ref=embed_post\" target=\"_blank\" class=\"_39g5\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "._39g5"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://www.facebook.com/balticdigitalinstitute?hc_ref=ARQYRQFt6iRZ6EN-q6CYAfVKA_c7Fw2E_lLmOezIcxDHSqiQEBpX2gG1DFd4z-l-nDI&amp;fref=nf&amp;ref=embed_post\" target=\"_blank\">Baltic Digital Institute</a>",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    ".fwb > a[target=\"_blank\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"scaledImageFitWidth ...\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" style=\"top:-40px;\" alt=\"Może być zdjęciem pr...\" width=\"498\" height=\"498\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    ".scaledImageFitWidth"
+                  ]
+                },
+                {
+                  "html": "<img class=\"_46-i img\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" style=\"left:-6px; top:0px;\" alt=\"Może być zdjęciem pr...\" width=\"260\" height=\"260\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "#u_0_7_vX > ._46-h > ._46-i[width=\"260\"][height=\"260\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"_46-i img\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" style=\"left:-6px; top:0px;\" alt=\"Może być zdjęciem pr...\" width=\"260\" height=\"260\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "#u_0_8_3t > ._46-h > ._46-i[width=\"260\"][height=\"260\"]"
+                  ]
+                },
+                {
+                  "html": "<a class=\"_5pcq\" href=\"/balticdigitalinstitute/posts/977356924866969?ref=embed_post\" target=\"_blank\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "._5pcq"
+                  ]
+                },
+                {
+                  "html": "<a class=\"see_more_link\" data-ft=\"{&quot;tn&quot;:&quot;e&quot;}\" href=\"#\" role=\"button\" id=\"u_0_c_C2\"><span class=\"see_more_link_inner\">Zobacz więcej</span></a>",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "#u_0_c_C2"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has children which are not allowed: a[tabindex], table[tabindex], img[tabindex], [role=button]"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"feed\">",
+          "target": [
+            "iframe[name=\"f39a13d271a088dc8\"]",
+            "div[role=\"feed\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: a[tabindex], table[tabindex], img[tabindex], [role=button]"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-children",
+              "data": {
+                "messageKey": "unallowed",
+                "values": "a[tabindex], table[tabindex]"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/837922559338586?ref=embed_post\" target=\"_blank\" id=\"u_0_1_ip\"></a>",
+                  "target": [
+                    "iframe[name=\"f8ad92c6e16335426\"]",
+                    "#u_0_1_ip"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://www.facebook.com/photo.php?fbid=837922216005287&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+                  "target": [
+                    "iframe[name=\"f8ad92c6e16335426\"]",
+                    "._2l7q > a"
+                  ]
+                },
+                {
+                  "html": "<table class=\"uiGrid _51mz\" cellspacing=\"0\" cellpadding=\"0\">",
+                  "target": [
+                    "iframe[name=\"f8ad92c6e16335426\"]",
+                    "table"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/837922559338586?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yy/r/Phqp6RSXdyI.webp\" alt=\"app-facebook\" width=\"24\" height=\"24\"></a>",
+                  "target": [
+                    "iframe[name=\"f8ad92c6e16335426\"]",
+                    ".rfloat > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/837922559338586?ref=embed_post\" class=\"_2q21\" target=\"_blank\"><abbr data-utime=\"1775732070\" data-tooltip-content=\"Czwartek, 9 kwietnia 2026 o 03:54\" data-hover=\"tooltip\" class=\"timestamp\"><span class=\"timestampContent\">około miesiąc temu</span></abbr></a>",
+                  "target": [
+                    "iframe[name=\"f8ad92c6e16335426\"]",
+                    "._2q21"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has children which are not allowed: a[tabindex], table[tabindex]"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"feed\">",
+          "target": [
+            "iframe[name=\"f8ad92c6e16335426\"]",
+            "div[role=\"feed\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: a[tabindex], table[tabindex]"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-children",
+              "data": {
+                "messageKey": "unallowed",
+                "values": "a[tabindex], table[tabindex]"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/833229523141223?ref=embed_post\" target=\"_blank\" id=\"u_0_1_bs\"></a>",
+                  "target": [
+                    "iframe[name=\"f3715c8b7c92d5695\"]",
+                    "#u_0_1_bs"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://www.facebook.com/photo.php?fbid=833229019807940&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+                  "target": [
+                    "iframe[name=\"f3715c8b7c92d5695\"]",
+                    "._2l7q > a"
+                  ]
+                },
+                {
+                  "html": "<table class=\"uiGrid _51mz\" cellspacing=\"0\" cellpadding=\"0\">",
+                  "target": [
+                    "iframe[name=\"f3715c8b7c92d5695\"]",
+                    "table"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/833229523141223?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yy/r/Phqp6RSXdyI.webp\" alt=\"app-facebook\" width=\"24\" height=\"24\"></a>",
+                  "target": [
+                    "iframe[name=\"f3715c8b7c92d5695\"]",
+                    ".rfloat > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/833229523141223?ref=embed_post\" class=\"_2q21\" target=\"_blank\"><abbr data-utime=\"1775197095\" data-tooltip-content=\"Czwartek, 2 kwietnia 2026 o 23:18\" data-hover=\"tooltip\" class=\"timestamp\"><span class=\"timestampContent\">około miesiąc temu</span></abbr></a>",
+                  "target": [
+                    "iframe[name=\"f3715c8b7c92d5695\"]",
+                    "._2q21"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has children which are not allowed: a[tabindex], table[tabindex]"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"feed\">",
+          "target": [
+            "iframe[name=\"f3715c8b7c92d5695\"]",
+            "div[role=\"feed\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: a[tabindex], table[tabindex]"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-children",
+              "data": {
+                "messageKey": "unallowed",
+                "values": "a[tabindex], table[tabindex]"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/832445323219643?ref=embed_post\" target=\"_blank\" id=\"u_0_1_oQ\"></a>",
+                  "target": [
+                    "iframe[name=\"f965ee69f7ebe0ae5\"]",
+                    "#u_0_1_oQ"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://www.facebook.com/photo.php?fbid=832445193219656&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+                  "target": [
+                    "iframe[name=\"f965ee69f7ebe0ae5\"]",
+                    "._2l7q > a"
+                  ]
+                },
+                {
+                  "html": "<table class=\"uiGrid _51mz\" cellspacing=\"0\" cellpadding=\"0\">",
+                  "target": [
+                    "iframe[name=\"f965ee69f7ebe0ae5\"]",
+                    "table"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/832445323219643?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yy/r/Phqp6RSXdyI.webp\" alt=\"app-facebook\" width=\"24\" height=\"24\"></a>",
+                  "target": [
+                    "iframe[name=\"f965ee69f7ebe0ae5\"]",
+                    ".rfloat > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/832445323219643?ref=embed_post\" class=\"_2q21\" target=\"_blank\"><abbr data-utime=\"1775113120\" data-tooltip-content=\"Środa, 1 kwietnia 2026 o 23:58\" data-hover=\"tooltip\" class=\"timestamp\"><span class=\"timestampContent\">około miesiąc temu</span></abbr></a>",
+                  "target": [
+                    "iframe[name=\"f965ee69f7ebe0ae5\"]",
+                    "._2q21"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has children which are not allowed: a[tabindex], table[tabindex]"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"feed\">",
+          "target": [
+            "iframe[name=\"f965ee69f7ebe0ae5\"]",
+            "div[role=\"feed\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: a[tabindex], table[tabindex]"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-children",
+              "data": {
+                "messageKey": "unallowed",
+                "values": "a[tabindex], table[tabindex]"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/827773997020109?ref=embed_post\" target=\"_blank\" id=\"u_0_1_Ib\"></a>",
+                  "target": [
+                    "iframe[name=\"f817ad03d61cf6c69\"]",
+                    "#u_0_1_Ib"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://www.facebook.com/photo.php?fbid=827772950353547&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+                  "target": [
+                    "iframe[name=\"f817ad03d61cf6c69\"]",
+                    "._2l7q > a"
+                  ]
+                },
+                {
+                  "html": "<table class=\"uiGrid _51mz\" cellspacing=\"0\" cellpadding=\"0\">",
+                  "target": [
+                    "iframe[name=\"f817ad03d61cf6c69\"]",
+                    "table"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/827773997020109?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yy/r/Phqp6RSXdyI.webp\" alt=\"app-facebook\" width=\"24\" height=\"24\"></a>",
+                  "target": [
+                    "iframe[name=\"f817ad03d61cf6c69\"]",
+                    ".rfloat > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/827773997020109?ref=embed_post\" class=\"_2q21\" target=\"_blank\"><abbr data-utime=\"1774605191\" data-tooltip-content=\"Piątek, 27 marca 2026 o 02:53\" data-hover=\"tooltip\" class=\"timestamp\"><span class=\"timestampContent\">około 2 mies. temu</span></abbr></a>",
+                  "target": [
+                    "iframe[name=\"f817ad03d61cf6c69\"]",
+                    "._2q21"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has children which are not allowed: a[tabindex], table[tabindex]"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"feed\">",
+          "target": [
+            "iframe[name=\"f817ad03d61cf6c69\"]",
+            "div[role=\"feed\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: a[tabindex], table[tabindex]"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-children",
+              "data": {
+                "messageKey": "unallowed",
+                "values": "a[tabindex], table[tabindex]"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/824244914039684?ref=embed_post\" target=\"_blank\" id=\"u_0_1_gf\"></a>",
+                  "target": [
+                    "iframe[name=\"f2486f5ab6fa7dee3\"]",
+                    "#u_0_1_gf"
+                  ]
+                },
+                {
+                  "html": "<a href=\"https://www.facebook.com/photo.php?fbid=824244760706366&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+                  "target": [
+                    "iframe[name=\"f2486f5ab6fa7dee3\"]",
+                    "._2l7q > a"
+                  ]
+                },
+                {
+                  "html": "<table class=\"uiGrid _51mz\" cellspacing=\"0\" cellpadding=\"0\">",
+                  "target": [
+                    "iframe[name=\"f2486f5ab6fa7dee3\"]",
+                    "table"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/824244914039684?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yy/r/Phqp6RSXdyI.webp\" alt=\"app-facebook\" width=\"24\" height=\"24\"></a>",
+                  "target": [
+                    "iframe[name=\"f2486f5ab6fa7dee3\"]",
+                    ".rfloat > a"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/824244914039684?ref=embed_post\" class=\"_2q21\" target=\"_blank\"><abbr data-utime=\"1774244141\" data-tooltip-content=\"Niedziela, 22 marca 2026 o 22:35\" data-hover=\"tooltip\" class=\"timestamp\"><span class=\"timestampContent\">około 2 mies. temu</span></abbr></a>",
+                  "target": [
+                    "iframe[name=\"f2486f5ab6fa7dee3\"]",
+                    "._2q21"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has children which are not allowed: a[tabindex], table[tabindex]"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"feed\">",
+          "target": [
+            "iframe[name=\"f2486f5ab6fa7dee3\"]",
+            "div[role=\"feed\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: a[tabindex], table[tabindex]"
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-children",
+              "data": {
+                "messageKey": "unallowed",
+                "values": "a[tabindex], table[tabindex], img[tabindex]"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/819284921202350?ref=embed_post\" target=\"_blank\" id=\"u_0_d_dH\"></a>",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_d_dH"
+                  ]
+                },
+                {
+                  "html": "<table class=\"uiGrid _51mz\" cellspacing=\"0\" cellpadding=\"0\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "table"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/819284921202350?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yA/r/LCqvjOAxZBm.webp\" alt=\"\" width=\"24\" height=\"24\"></a>",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "span > a[target=\"_blank\"]"
+                  ]
+                },
+                {
+                  "html": "<a class=\"see_more_link\" href=\"/friendshipwithoutborders0/posts/819284921202350?ref=embed_post\" data-ft=\"{&quot;tn&quot;:&quot;e&quot;}\" id=\"u_0_e_ki\"><span class=\"see_more_link_inner\">Zobacz więcej</span></a>",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_e_ki"
+                  ]
+                },
+                {
+                  "html": "<a href=\"/friendshipwithoutborders0/posts/819284921202350?ref=embed_post\" target=\"_blank\" class=\"_39g5\"><abbr data-utime=\"1773727723\" data-tooltip-content=\"Poniedziałek, 16 marca 2026 o 23:08\" data-hover=\"tooltip\" class=\"timestamp\"><span class=\"timestampContent\">około 2 mies. temu</span></abbr></a>",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "._39g5"
+                  ]
+                },
+                {
+                  "html": "<img class=\"_46-i img\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" style=\"left:-6px; top:0px;\" alt=\"Może być zdjęciem pr...\" width=\"260\" height=\"260\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_7_Jm > ._46-h > ._46-i[width=\"260\"][height=\"260\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"_46-i img\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" style=\"left:-6px; top:0px;\" alt=\"Może być zdjęciem pr...\" width=\"260\" height=\"260\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_a_In > ._46-h > ._46-i[width=\"260\"][height=\"260\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"scaledImageFitWidth ...\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" alt=\"Może być zdjęciem pr...\" width=\"165\" height=\"165\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_b_XQ > .uiScaledImageContainer > .scaledImageFitWidth[width=\"165\"][height=\"165\"]"
+                  ]
+                },
+                {
+                  "html": "<img class=\"scaledImageFitHeight...\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" style=\"left:0px;\" alt=\"Może być zdjęciem pr...\" width=\"165\" height=\"165\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    ".scaledImageFitHeight"
+                  ]
+                },
+                {
+                  "html": "<img class=\"scaledImageFitWidth ...\" src=\"https://scontent.xx....\" data-src=\"https://scontent.xx....\" alt=\"Może być zdjęciem pr...\" width=\"165\" height=\"165\" caption=\"Może być zdjęciem pr...\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_9_eE > .uiScaledImageContainer > .scaledImageFitWidth[width=\"165\"][height=\"165\"]"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has children which are not allowed: a[tabindex], table[tabindex], img[tabindex]"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "critical",
+          "html": "<div role=\"feed\">",
+          "target": [
+            "iframe[name=\"f0098029639bba22e\"]",
+            "div[role=\"feed\"]"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: a[tabindex], table[tabindex], img[tabindex]"
+        }
+      ]
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "tags": [
+        "cat.color",
+        "wcag2aa",
+        "wcag143",
+        "TTv5",
+        "TT13.c",
+        "EN-301-549",
+        "EN-9.1.4.3",
+        "ACT",
+        "RGAAv4",
+        "RGAA-3.2.1"
+      ],
+      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#90949c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.04,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8\" data-ft=\"{\"fbfeed_location\":23}\" data-fte=\"1\" data-ftr=\"1\" id=\"u_0_1_ED\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "#u_0_1_ED"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.04 (foreground color: #90949c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"fcg\">130 obserwujących</span>",
+          "target": [
+            "iframe[name=\"f39a13d271a088dc8\"]",
+            "._1atc > .fcg"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #90949c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8\" data-ft=\"{\"fbfeed_location\":23}\" data-fte=\"1\" data-ftr=\"1\" id=\"u_0_1_ED\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "#u_0_1_ED"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _1p4p\" title=\"Skomentuj\"><i class=\"_3-8_ _2yf7 _5jp _4mlr img sp_post-plugin sx_post-plugin_comment-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin sx_post-plugin_comment\"></i>Skomentuj</div>",
+          "target": [
+            "iframe[name=\"f39a13d271a088dc8\"]",
+            "._1p4p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8\" data-ft=\"{\"fbfeed_location\":23}\" data-fte=\"1\" data-ftr=\"1\" id=\"u_0_1_ED\">",
+                  "target": [
+                    "iframe[name=\"f39a13d271a088dc8\"]",
+                    "#u_0_1_ED"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _50sk\" title=\"Udostępnij\"><i class=\"_3-8_ _2yf7 _5jp _2167 img sp_post-plugin sx_post-plugin_share-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2167 img sp_post-plugin sx_post-plugin_share\"></i>Udostępnij</div>",
+          "target": [
+            "iframe[name=\"f39a13d271a088dc8\"]",
+            "._50sk"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _2165\" title=\"Polub\"><i class=\"_3-8_ _2yf7 _5jp _2166 img sp_post-plugin sx_post-plugin_like-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2166 img sp_post-plugin sx_post-plugin_like\"></i>Polub</div>",
+          "target": [
+            "iframe[name=\"f8ad92c6e16335426\"]",
+            "._2165"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _1p4p\" title=\"Skomentuj\"><i class=\"_3-8_ _2yf7 _5jp _4mlr img sp_post-plugin sx_post-plugin_comment-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin sx_post-plugin_comment\"></i>Skomentuj</div>",
+          "target": [
+            "iframe[name=\"f8ad92c6e16335426\"]",
+            "._1p4p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _50sk\" title=\"Udostępnij\"><i class=\"_3-8_ _2yf7 _5jp _2167 img sp_post-plugin sx_post-plugin_share-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2167 img sp_post-plugin sx_post-plugin_share\"></i>Udostępnij</div>",
+          "target": [
+            "iframe[name=\"f8ad92c6e16335426\"]",
+            "._50sk"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _2165\" title=\"Polub\"><i class=\"_3-8_ _2yf7 _5jp _2166 img sp_post-plugin sx_post-plugin_like-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2166 img sp_post-plugin sx_post-plugin_like\"></i>Polub</div>",
+          "target": [
+            "iframe[name=\"f3715c8b7c92d5695\"]",
+            "._2165"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _1p4p\" title=\"Skomentuj\"><i class=\"_3-8_ _2yf7 _5jp _4mlr img sp_post-plugin sx_post-plugin_comment-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin sx_post-plugin_comment\"></i>Skomentuj</div>",
+          "target": [
+            "iframe[name=\"f3715c8b7c92d5695\"]",
+            "._1p4p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _50sk\" title=\"Udostępnij\"><i class=\"_3-8_ _2yf7 _5jp _2167 img sp_post-plugin sx_post-plugin_share-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2167 img sp_post-plugin sx_post-plugin_share\"></i>Udostępnij</div>",
+          "target": [
+            "iframe[name=\"f3715c8b7c92d5695\"]",
+            "._50sk"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _2165\" title=\"Polub\"><i class=\"_3-8_ _2yf7 _5jp _2166 img sp_post-plugin sx_post-plugin_like-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2166 img sp_post-plugin sx_post-plugin_like\"></i>Polub</div>",
+          "target": [
+            "iframe[name=\"f965ee69f7ebe0ae5\"]",
+            "._2165"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _1p4p\" title=\"Skomentuj\"><i class=\"_3-8_ _2yf7 _5jp _4mlr img sp_post-plugin sx_post-plugin_comment-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin sx_post-plugin_comment\"></i>Skomentuj</div>",
+          "target": [
+            "iframe[name=\"f965ee69f7ebe0ae5\"]",
+            "._1p4p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _50sk\" title=\"Udostępnij\"><i class=\"_3-8_ _2yf7 _5jp _2167 img sp_post-plugin sx_post-plugin_share-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2167 img sp_post-plugin sx_post-plugin_share\"></i>Udostępnij</div>",
+          "target": [
+            "iframe[name=\"f965ee69f7ebe0ae5\"]",
+            "._50sk"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _1p4p\" title=\"Skomentuj\"><i class=\"_3-8_ _2yf7 _5jp _4mlr img sp_post-plugin sx_post-plugin_comment-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin sx_post-plugin_comment\"></i>Skomentuj</div>",
+          "target": [
+            "iframe[name=\"f817ad03d61cf6c69\"]",
+            "._1p4p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _50sk\" title=\"Udostępnij\"><i class=\"_3-8_ _2yf7 _5jp _2167 img sp_post-plugin sx_post-plugin_share-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2167 img sp_post-plugin sx_post-plugin_share\"></i>Udostępnij</div>",
+          "target": [
+            "iframe[name=\"f817ad03d61cf6c69\"]",
+            "._50sk"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _2165\" title=\"Polub\"><i class=\"_3-8_ _2yf7 _5jp _2166 img sp_post-plugin sx_post-plugin_like-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2166 img sp_post-plugin sx_post-plugin_like\"></i>Polub</div>",
+          "target": [
+            "iframe[name=\"f2486f5ab6fa7dee3\"]",
+            "._2165"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _1p4p\" title=\"Skomentuj\"><i class=\"_3-8_ _2yf7 _5jp _4mlr img sp_post-plugin sx_post-plugin_comment-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin sx_post-plugin_comment\"></i>Skomentuj</div>",
+          "target": [
+            "iframe[name=\"f2486f5ab6fa7dee3\"]",
+            "._1p4p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _50sk\" title=\"Udostępnij\"><i class=\"_3-8_ _2yf7 _5jp _2167 img sp_post-plugin sx_post-plugin_share-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2167 img sp_post-plugin sx_post-plugin_share\"></i>Udostępnij</div>",
+          "target": [
+            "iframe[name=\"f2486f5ab6fa7dee3\"]",
+            "._50sk"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#90949c",
+                "bgColor": "#ffffff",
+                "contrastRatio": 3.04,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8\" data-ft=\"{\"fbfeed_location\":23}\" data-fte=\"1\" data-ftr=\"1\" id=\"u_0_1_KD\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_1_KD"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 3.04 (foreground color: #90949c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<span class=\"timestampContent\">około 2 mies. temu</span>",
+          "target": [
+            "iframe[name=\"f0098029639bba22e\"]",
+            ".timestampContent"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.04 (foreground color: #90949c, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8\" data-ft=\"{\"fbfeed_location\":23}\" data-fte=\"1\" data-ftr=\"1\" id=\"u_0_1_KD\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_1_KD"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _1p4p\" title=\"Skomentuj\"><i class=\"_3-8_ _2yf7 _5jp _4mlr img sp_post-plugin sx_post-plugin_comment-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _4mlr img sp_post-plugin sx_post-plugin_comment\"></i>Skomentuj</div>",
+          "target": [
+            "iframe[name=\"f0098029639bba22e\"]",
+            "._1p4p"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7f7f7f",
+                "bgColor": "#ffffff",
+                "contrastRatio": 4,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "messageKey": null,
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<div class=\"_4-u2 mbm _4mrt _5jmm _5pat _5v3q _7cqq _4-u8\" data-ft=\"{\"fbfeed_location\":23}\" data-fte=\"1\" data-ftr=\"1\" id=\"u_0_1_KD\">",
+                  "target": [
+                    "iframe[name=\"f0098029639bba22e\"]",
+                    "#u_0_1_KD"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<div class=\"_2pi4 _36iq _4lk2 _3xre _50sk\" title=\"Udostępnij\"><i class=\"_3-8_ _2yf7 _5jp _2167 img sp_post-plugin sx_post-plugin_share-light\"></i><i class=\"_3-8_ _2yf7 _3wdt _2167 img sp_post-plugin sx_post-plugin_share\"></i>Udostępnij</div>",
+          "target": [
+            "iframe[name=\"f0098029639bba22e\"]",
+            "._50sk"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #7f7f7f, background color: #ffffff, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+        }
+      ]
+    },
+    {
+      "id": "link-name",
+      "impact": "serious",
+      "tags": [
+        "cat.name-role-value",
+        "wcag2a",
+        "wcag244",
+        "wcag412",
+        "section508",
+        "section508.22.a",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.2.4.4",
+        "EN-9.4.1.2",
+        "ACT",
+        "RGAAv4",
+        "RGAA-6.2.1"
+      ],
+      "description": "Ensure links have discernible text",
+      "help": "Links must have discernible text",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/846975475099961?ref=embed_post\" target=\"_blank\" id=\"u_0_b_lU\"></a>",
+          "target": [
+            "iframe[name=\"f39a13d271a088dc8\"]",
+            "#u_0_b_lU"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/846975475099961?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yA/r/LCqvjOAxZBm.webp\" alt=\"\" width=\"24\" height=\"24\"></a>",
+          "target": [
+            "iframe[name=\"f39a13d271a088dc8\"]",
+            "._302 > span > a[target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/837922559338586?ref=embed_post\" target=\"_blank\" id=\"u_0_1_ip\"></a>",
+          "target": [
+            "iframe[name=\"f8ad92c6e16335426\"]",
+            "#u_0_1_ip"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.facebook.com/photo.php?fbid=837922216005287&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+          "target": [
+            "iframe[name=\"f8ad92c6e16335426\"]",
+            "._2l7q > a"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/833229523141223?ref=embed_post\" target=\"_blank\" id=\"u_0_1_bs\"></a>",
+          "target": [
+            "iframe[name=\"f3715c8b7c92d5695\"]",
+            "#u_0_1_bs"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.facebook.com/photo.php?fbid=833229019807940&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+          "target": [
+            "iframe[name=\"f3715c8b7c92d5695\"]",
+            "._2l7q > a"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/832445323219643?ref=embed_post\" target=\"_blank\" id=\"u_0_1_oQ\"></a>",
+          "target": [
+            "iframe[name=\"f965ee69f7ebe0ae5\"]",
+            "#u_0_1_oQ"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.facebook.com/photo.php?fbid=832445193219656&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+          "target": [
+            "iframe[name=\"f965ee69f7ebe0ae5\"]",
+            "._2l7q > a"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/827773997020109?ref=embed_post\" target=\"_blank\" id=\"u_0_1_Ib\"></a>",
+          "target": [
+            "iframe[name=\"f817ad03d61cf6c69\"]",
+            "#u_0_1_Ib"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.facebook.com/photo.php?fbid=827772950353547&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+          "target": [
+            "iframe[name=\"f817ad03d61cf6c69\"]",
+            "._2l7q > a"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/824244914039684?ref=embed_post\" target=\"_blank\" id=\"u_0_1_gf\"></a>",
+          "target": [
+            "iframe[name=\"f2486f5ab6fa7dee3\"]",
+            "#u_0_1_gf"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"https://www.facebook.com/photo.php?fbid=824244760706366&set=a.212536661877182&type=3&ref=embed_post\" target=\"_blank\">",
+          "target": [
+            "iframe[name=\"f2486f5ab6fa7dee3\"]",
+            "._2l7q > a"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/819284921202350?ref=embed_post\" target=\"_blank\" id=\"u_0_d_dH\"></a>",
+          "target": [
+            "iframe[name=\"f0098029639bba22e\"]",
+            "#u_0_d_dH"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute does not exist or is empty"
+            },
+            {
+              "id": "aria-labelledby",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+            },
+            {
+              "id": "non-empty-title",
+              "data": {
+                "messageKey": "noAttr"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has no title attribute"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is in tab order and does not have accessible text"
+            }
+          ],
+          "impact": "serious",
+          "html": "<a href=\"/friendshipwithoutborders0/posts/819284921202350?ref=embed_post\" target=\"_blank\"><img class=\"img\" src=\"https://static.xx.fbcdn.net/rsrc.php/yA/r/LCqvjOAxZBm.webp\" alt=\"\" width=\"24\" height=\"24\"></a>",
+          "target": [
+            "iframe[name=\"f0098029639bba22e\"]",
+            "span > a[target=\"_blank\"]"
+          ],
+          "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+        }
+      ]
+    }
+  ],
+  "ourViolations": [],
+  "passesCount": 27,
+  "incompleteCount": 3,
+  "note": "Violations w iframe[...] = FB SDK cross-origin embeds (poza zasięgiem). Asercja sprawdza tylko ourViolations."
+}
