@@ -33,3 +33,4 @@
 16. Wdrozenie identyfikacji wizualnej (favicon + logo w nawigacji) - 2025-12-23
 17. Powiekszenie kontenera i logo w headerze - 2025-12-23
 18. Aktualizacja miniatur sekcji Dowody i odnosniki (wozki rehabilitacyjne 2024) - 2025-12-23
+19. Osadzenie tablicy FB Fundacji na /aktualnosci (FacebookFeed + FacebookFeedClient + lib/facebook.ts + JSON fallback) - 2026-05-11

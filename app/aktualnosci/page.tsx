@@ -1,10 +1,11 @@
 import Link from "next/link";
+import { FacebookFeed } from "@/components/FacebookFeed";
 import { SectionHeading } from "@/components/SectionHeading";
 import { newsPosts } from "@/content/data";
 
 export default function NewsPage() {
   return (
-    <div className="mx-auto max-w-6xl space-y-8 px-4 py-12 md:px-6 md:py-16">
+    <div className="mx-auto max-w-6xl space-y-12 px-4 py-12 md:px-6 md:py-16">
       <SectionHeading
         eyebrow="Aktualności"
         title="Transparentna komunikacja FPbG"
@@ -34,6 +35,9 @@ export default function NewsPage() {
           </article>
         ))}
       </div>
+
+      {/* Sekcja FB Feed - dynamiczny zrzut tablicy Facebooka, uzupełnia statyczne newsy. */}
+      <FacebookFeed />
     </div>
   );
 }

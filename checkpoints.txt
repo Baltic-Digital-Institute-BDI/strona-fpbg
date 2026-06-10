@@ -17,3 +17,7 @@ f81f4dd44a9e42f96e12e6643d57c45b4541214c
 0da1bf9 task 17: powiekszenie kontenera/logo w headerze; curl / i /o-fundacji; Playwright headed; Lighthouse dev (perf 0.42, a11y 1.0, bp 1.0, SEO 1.0); axe 0 violations
 2025-12-23 checkpoint: stan bazowy przed task 18 (miniatury projektu); testy: nie uruchamiane
 93ba1b4 task 18: miniatury sekcji Dowody i odnosniki; curl / i /projekty/wozki-rehabilitacyjne-2024; Playwright headed; Lighthouse; axe 0 violations
+2026-05-11 checkpoint: stan bazowy przed task 19 (FB feed embed); branch task/19-fb-feed-embed (nie zmergowany do main per Adam decision)
+44f23cc task 19: osadzenie tablicy FB na /aktualnosci; 7 unikalnych URL-i (sortowane DESC po fbid); tsc --noEmit OK; Playwright/Lighthouse/axe TO DO lokalnie (sandbox SWC bus error blokuje runtime); push origin task/19-fb-feed-embed (Vercel preview pending)
+181c5f4 task 19: docs (todo_done + checkpoints)
+2026-05-12 runtime tests on Windows: Playwright fb-feed.spec.ts 2/2 PASS (4.7s + 19.9s) | Lighthouse /aktualnosci dev: perf 0.53, a11y 1.0, BP 1.0, SEO 0.92 | axe: 0 violations w naszym kodzie (3 violations w iframes FB SDK - udokumentowane jako wyjątek w docs/decisions.md per workflow.txt) | Playwright MCP visual: 7/7 rendered, leftGap=rightGap=29px, scrollable=true; Vercel preview READY: https://strona-fpbg-domroqwqp-bdi.vercel.app (dpl_6Ga1ktHZWpgkKUPq3AbnFoFmHkEg, build 32s, lambdas iad1, SSO-protected)
