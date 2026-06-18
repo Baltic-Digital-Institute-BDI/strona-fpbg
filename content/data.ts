@@ -34,6 +34,17 @@ export type Project = {
   auditLinks: { label: string; url: string; thumbnail?: string }[];
 };
 
+export type NewsSource = {
+  label: string;
+  url: string;
+};
+
+export type NewsSection = {
+  heading?: string;
+  paragraphs?: string[];
+  bullets?: string[];
+};
+
 export type NewsPost = {
   slug: string;
   title: string;
@@ -41,6 +52,14 @@ export type NewsPost = {
   category: string;
   excerpt: string;
   body: string;
+  lead?: string;
+  highlights?: Metric[];
+  sections?: NewsSection[];
+  partners?: string[];
+  fundingSources?: string[];
+  sources?: NewsSource[];
+  relatedProjectSlug?: string;
+  note?: string;
 };
 
 export type Partner = {
@@ -232,23 +251,174 @@ export const projects: Project[] = [
 export const newsPosts: NewsPost[] = [
   {
     slug: "mosty-solidarnosci-dzierzazno",
-    title: "Mosty solidarności: 30 wózków rehabilitacyjnych dla szpitala",
-    date: "2024-10-15",
+    title:
+      "Mosty solidarności: 30 wózków rehabilitacyjnych dla szpitala w Dzierżążnie",
+    date: "2023-11-24",
     category: "Humanitarny",
     excerpt:
-      "Transgraniczna akcja FPbG i Fundacji Viktoriia umocniła zasoby szpitala w Dzierżążnie.",
-    body: `W 2024 roku FPbG koordynowała przekazanie 30 wózków rehabilitacyjnych o wartości 120 tys. zł dla szpitala w Dzierżążnie. Darowizna jest formą wdzięczności strony ukraińskiej za wcześniejsze wsparcie humanitarne.
+      "Transgraniczna akcja FPbG i Fundacji Viktoriia wzmocniła oddział rehabilitacji w Dzierżążnie - 30 wielofunkcyjnych wózków o wartości ok. 120 tys. zł jako gest wdzięczności strony ukraińskiej.",
+    body: `Fundacja Przyjaźń bez Granic koordynowała przekazanie 30 wózków rehabilitacyjnych o wartości ok. 120 tys. zł dla szpitala w Dzierżążnie. Darowizna była formą wdzięczności strony ukraińskiej za wcześniejsze wsparcie humanitarne.
 
-To dowód na naszą zdolność do działania dwukierunkowego – pozyskujemy zasoby z zagranicy i kierujemy je na wzmocnienie pomorskich instytucji.`,
+To dowód na naszą zdolność do działania dwukierunkowego - pozyskujemy zasoby z zagranicy i kierujemy je na wzmocnienie pomorskich instytucji.`,
+    lead:
+      "Solidarność nie jest jednokierunkową ulicą. Akcja przekazania 30 wózków rehabilitacyjnych dla szpitala w Dzierżążnie to dowód dwukierunkowej solidarności - tym razem to nasi partnerzy ze strony ukraińskiej podziękowali Pomorzu za wcześniejsze wsparcie humanitarne.",
+    highlights: [
+      { label: "Wózki", value: "30" },
+      { label: "Szacunkowa wartość", value: "120 000 PLN" },
+      { label: "Data przekazania", value: "Listopad 2023" },
+    ],
+    sections: [
+      {
+        heading: "Dwukierunkowa solidarność",
+        paragraphs: [
+          "W sercu misji Fundacji Przyjaźń bez Granic leży przekonanie, że solidarność jest relacją wzajemną, opartą na szacunku i wdzięczności. Zazwyczaj to my ruszamy z pomocą do potrzebujących - tym razem to strona ukraińska postanowiła podziękować Polsce, a w szczególności Pomorzu, za otrzymane wsparcie.",
+          "Akcja przekazania wózków rehabilitacyjnych była symbolicznym gestem i aktem dwukierunkowej solidarności, który umocnił zasoby lokalnej placówki medycznej.",
+        ],
+      },
+      {
+        heading: "Przebieg przekazania",
+        paragraphs: [
+          "Przedstawicielki Fundacji Przyjaźń bez Granic - Liliia Plivak (wiceprezes) oraz Tatjana Pavlytska (koordynatorka pomocy humanitarnej) - wraz z Barbarą Kramp ze Stowarzyszenia Otwarte Kaszuby odwiedziły Zamiejscową Placówkę w Dzierżążnie (Oddział Rehabilitacji dla Dorosłych oraz Zakłady Opiekuńczo-Lecznicze). Spotkanie było emocjonalnym przeżyciem, pełnym empatii i wdzięczności.",
+          "Przekazane wielofunkcyjne, bezdętkowe wózki inwalidzkie podniosły komfort i mobilność pacjentów oraz możliwości rehabilitacyjne placówki. Po przekazaniu wsparcia przedstawicielki Fundacji udały się z pomocą humanitarną na tereny objęte działaniami wojennymi.",
+        ],
+      },
+      {
+        heading: "Mierzalny wpływ",
+        bullets: [
+          "30 nowoczesnych, wielofunkcyjnych wózków rehabilitacyjnych.",
+          "Łączna szacunkowa wartość darowizny: ok. 120 000 złotych.",
+          "Sprzęt trafił do szpitala w Dzierżążnie (okolice Kartuz), służąc lokalnej społeczności.",
+        ],
+      },
+      {
+        heading: "Architekci współpracy: nasz model HUB-u",
+        paragraphs: [
+          "Fundacja Przyjaźń bez Granic pełniła rolę HUB-u - organizatora i koordynatora, który łączy kapitał zagraniczny z potrzebami lokalnymi.",
+        ],
+        bullets: [
+          "Fundacja Viktoriia - międzynarodowy partner, który zainicjował i dostarczył darowiznę jako wyraz wdzięczności.",
+          "Stowarzyszenie Otwarte Kaszuby - partner lokalny, który zapewnił logistykę i znajomość regionu.",
+          "Szpital Specjalistyczny w Kościerzynie (Placówka w Dzierżążnie) - odbiorca i beneficjent sprzętu.",
+        ],
+      },
+      {
+        heading: "Dlaczego to jest ważne?",
+        paragraphs: [
+          "Akcja stanowi bezcenny kapitał wiarygodności i autentyczności Fundacji. Udowodniła naszą skuteczność w zarządzaniu projektami o wysokiej wartości oraz umocniła misję budowania długotrwałych, wzajemnych relacji wykraczających poza jednorazową pomoc charytatywną.",
+          "To na tym fundamencie - realizowanym w ramach Filaru III: Solidarność bez Granic - budujemy naszą strategię rozwoju i przyszłe inicjatywy na Pomorzu i poza nim.",
+        ],
+      },
+    ],
+    partners: [
+      "Fundacja Viktoriia",
+      "Stowarzyszenie Otwarte Kaszuby",
+      "Szpital Specjalistyczny w Kościerzynie (Placówka w Dzierżążnie)",
+    ],
+    sources: [
+      {
+        label: "Express Kaszubski",
+        url: "https://expresskaszubski.pl/pl/11_wiadomosci/49157_dzierzazno-dzieki-polsko-ukrainskiej-wspolpracy-do-szpitala-trafilo-30-wozkow.html",
+      },
+      {
+        label: "Dziennik Bałtycki",
+        url: "https://dziennikbaltycki.pl/spolecznicy-z-ukrainy-przekazali-wozki-inwalidzkie-szpitalowi-w-dzierzaznie/gh/c14-18106465",
+      },
+      {
+        label: "Nasze Miasto Żukowo",
+        url: "https://zukowo.naszemiasto.pl/spolecznicy-z-ukrainy-przekazali-wozki-inwalidzkie/ar/c14-9534271",
+      },
+      {
+        label: "Radio Kaszëbë",
+        url: "https://radiokaszebe.pl/30-nowych-wozkow-rehabilitacyjnych-w-dzierzaznie/",
+      },
+    ],
+    relatedProjectSlug: "wozki-rehabilitacyjne-2024",
   },
   {
     slug: "fep-centrum-integracji-start",
-    title: "Start Centrum Usług Integracyjnych (FEP 2025-2026)",
-    date: "2025-01-10",
+    title: "Start Centrum Usług Integracyjnych - projekt FEP 2025-2026",
+    date: "2025-09-01",
     category: "FEP",
     excerpt:
-      "Rozpoczynamy program wsparcia kompetencji podstawowych i poradnictwa dla nowych mieszkańców Pomorza.",
-    body: `Centrum Usług Integracyjnych zapewni kompleksowe wsparcie dla 65 osób, w tym poradnictwo prawne, psychologiczne oraz ścieżkę rozwoju kompetencji podstawowych. Program realizujemy w oparciu o sprawdzony model FPbG, z transparentnym raportowaniem efektów.`,
+      "Rozpoczynamy kompleksowe wsparcie kompetencji podstawowych i poradnictwo dla 65 mieszkańców Pomorza. FPbG odpowiada za komponent integracyjny i językowy w partnerskim projekcie FEP 2025-2026.",
+    body: `Centrum Usług Integracyjnych zapewnia kompleksowe wsparcie dla 65 osób, w tym poradnictwo prawne, psychologiczne oraz ścieżkę rozwoju kompetencji podstawowych. Program realizujemy jako partner projektu Fundusze Europejskie dla Pomorza, z transparentnym raportowaniem efektów.`,
+    lead:
+      "Ruszamy z Centrum Usług Integracyjnych - w ramach partnerskiego projektu Fundusze Europejskie dla Pomorza (FEP 2025-2026) zapewniamy mieszkańcom Pomorza kompleksowe wsparcie kompetencji podstawowych oraz poradnictwo. Rolą Fundacji Przyjaźń bez Granic jest komponent integracyjny i językowy.",
+    highlights: [
+      { label: "Uczestnicy", value: "65 osób" },
+      { label: "Wartość projektu", value: "708 250 PLN" },
+      { label: "Okres", value: "2025-2026" },
+    ],
+    sections: [
+      {
+        heading: "Czym jest Centrum Usług Integracyjnych",
+        paragraphs: [
+          "Centrum to praktyczne wdrożenie Filaru I naszej strategii - „Witaj w domu: integracja i nowe kompetencje”. W ramach projektu „Rozwój umiejętności podstawowych mieszkańców Trójmiasta i powiatów sąsiadujących” zapewniamy podnoszenie kompetencji cyfrowych, matematycznych oraz rozumienia i tworzenia informacji u 65 osób dorosłych.",
+          "Projekt realizujemy w partnerstwie, w oparciu o sprawdzony model działania i stabilne finansowanie ze środków europejskich.",
+        ],
+      },
+      {
+        heading: "Rola Fundacji Przyjaźń bez Granic",
+        paragraphs: [
+          "Fundacja odpowiada za komponent integracyjny i językowy - jesteśmy „ludzkim interfejsem” dla uczestników z doświadczeniem migracyjnym, w tym obywateli Ukrainy.",
+        ],
+        bullets: [
+          "Poradnictwo w Centrach Wsparcia: prawne, psychologiczne i zawodowe.",
+          "Wsparcie językowe i obniżanie barier wejścia do projektu.",
+          "Asysta logistyczna i integracyjna dla grup wrażliwych.",
+        ],
+      },
+      {
+        heading: "Dla kogo",
+        paragraphs: [
+          "Projekt skierowany jest do osób dorosłych (18+) z województwa pomorskiego - z Trójmiasta oraz powiatów gdańskiego, kartuskiego, wejherowskiego i puckiego - ze szczególnym uwzględnieniem osób 50+, osób o niskich kwalifikacjach oraz uchodźców. Udział jest bezpłatny.",
+        ],
+      },
+      {
+        heading: "Co zyskują uczestnicy",
+        bullets: [
+          "Indywidualna diagnoza potrzeb ze wsparciem doradcy.",
+          "Kurs „Cyfrowy Lider” (24 h) w małych grupach + konsultacje indywidualne.",
+          "Warsztaty tematyczne: „Oszczędnie i ekologicznie” oraz „Bezpiecznie w sieci”.",
+          "Doradztwo zawodowe i mentoring z praktykami.",
+          "Certyfikat potwierdzający zdobyte kompetencje oraz catering i wyposażona sala.",
+        ],
+      },
+      {
+        heading: "Dane formalne (wsad grantowy)",
+        bullets: [
+          "Nr umowy: FEPM.05.09-IZ.00-0056/25.",
+          "Wartość projektu: 708 250,00 PLN.",
+          "Wkład Funduszy Europejskich: 672 837,50 PLN.",
+          "Program: Fundusze Europejskie dla Pomorza 2021-2027, Europejski Fundusz Społeczny Plus (EFS+).",
+        ],
+      },
+    ],
+    partners: [
+      "Baltic Digital Institute (Lider)",
+      "Fundacja Przyjaźń bez Granic",
+      "Kaszubski Związek Pracodawców",
+    ],
+    fundingSources: [
+      "Fundusze Europejskie dla Pomorza 2021-2027",
+      "Europejski Fundusz Społeczny Plus (EFS+)",
+      "wkład własny partnerów projektu",
+    ],
+    sources: [
+      {
+        label: "Strona projektu (Baltic Digital Institute)",
+        url: "https://www.baltic-digital.org/projekty/rozwoj-umiejetnosci",
+      },
+      {
+        label: "Regulamin rekrutacji (PDF)",
+        url: "https://drive.google.com/file/d/1tHVxybecczaYGqLGY9q1gaiRPaLS3ei_/view?usp=sharing",
+      },
+      {
+        label: "Formularz zgłoszeniowy (online)",
+        url: "https://forms.gle/8s6fgPqPWx2ob4X67",
+      },
+    ],
+    relatedProjectSlug: "rozwoj-umiejetnosci",
   },
 ];
 
