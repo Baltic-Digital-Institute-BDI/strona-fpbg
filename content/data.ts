@@ -158,7 +158,7 @@ export const projects: Project[] = [
     title:
       "Rozwój umiejętności podstawowych mieszkańców Trójmiasta i powiatów sąsiadujących",
     status: "W toku",
-    period: "2025-2027",
+    period: "2026-2027",
     strategicPillar: "Filar I: Spójność Społeczna na Pomorzu",
     summary:
       "Partnerski projekt FPBG, Baltic Digital Institute i Kaszubskiego Związku Pracodawców rozwija kompetencje cyfrowe mieszkańców Pomorza oraz wspiera uczestników wymagających wsparcia integracyjnego.",
