@@ -17,7 +17,7 @@ export default function ContactPage() {
           <ul className="mt-3 space-y-2 text-sm text-primary/80">
             <li>Adres: {contactInfo.address}</li>
             <li>Email: {contactInfo.email}</li>
-            <li>Telefon: {contactInfo.phone}</li>
+            {contactInfo.phone ? <li>Telefon: {contactInfo.phone}</li> : null}
             <li>Godziny pracy: {contactInfo.hours}</li>
           </ul>
           <p className="mt-3 rounded-2xl bg-sand px-4 py-3 text-sm text-primary/80">
