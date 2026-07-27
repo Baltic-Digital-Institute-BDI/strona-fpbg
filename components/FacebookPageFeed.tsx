@@ -1,7 +1,7 @@
 import { FacebookPageIframe } from "@/components/FacebookPageIframe";
 import { SectionHeading } from "@/components/SectionHeading";
 
-const FB_PAGE_URL = "https://www.facebook.com/friendshipwithoutborders0"; // Fundacja Przyjaźń bez Granic
+const FB_PAGE_URL = "https://www.facebook.com/109489188850296"; // Fundacja Przyjaźń bez Granic (numeryczne page ID = pelny parytet ze wzorcem; alias: friendshipwithoutborders0)
 
 type FacebookPageFeedProps = {
   eyebrow?: string;
