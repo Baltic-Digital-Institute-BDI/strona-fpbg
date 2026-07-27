@@ -116,7 +116,7 @@ export const strategyPillars: StrategyPillar[] = [
       "100% wskaźnik kwalifikacji w projekcie FEP",
     ],
     initiatives: [
-      "Centrum Usług Integracyjnych (FEP 2025-2026)",
+      "Centrum Usług Integracyjnych (FEP 2026-2027)",
       "Poradnictwo w Centrach Wsparcia: prawne, psychologiczne, zawodowe",
     ],
   },
@@ -202,14 +202,14 @@ export const projects: Project[] = [
     slug: "wozki-rehabilitacyjne-2024",
     title: "30 wózków rehabilitacyjnych dla szpitala w Dzierżążnie",
     status: "Zrealizowany",
-    period: "2024",
+    period: "2023",
     strategicPillar: "Filar III: Solidarność bez Granic",
     summary:
       "Dwukierunkowa solidarność – 30 wózków rehabilitacyjnych o wartości 120 000 PLN trafiło do szpitala w Dzierżążnie jako gest wdzięczności partnerów z Ukrainy.",
     metrics: [
       { label: "Wózki", value: "30" },
       { label: "Wartość darowizny", value: "120 000 PLN" },
-      { label: "Rok realizacji", value: "2024" },
+      { label: "Rok realizacji", value: "2023" },
     ],
     beneficiaries:
       "Pacjenci i zespół szpitala w Dzierżążnie oraz lokalna społeczność Pomorza",
@@ -336,18 +336,18 @@ To dowód na naszą zdolność do działania dwukierunkowego - pozyskujemy zasob
   },
   {
     slug: "fep-centrum-integracji-start",
-    title: "Start Centrum Usług Integracyjnych - projekt FEP 2025-2026",
-    date: "2025-09-01",
+    title: "Start Centrum Usług Integracyjnych - projekt FEP 2026-2027",
+    date: "2026-03-01",
     category: "FEP",
     excerpt:
-      "Rozpoczynamy kompleksowe wsparcie kompetencji podstawowych i poradnictwo dla 65 mieszkańców Pomorza. FPbG odpowiada za komponent integracyjny i językowy w partnerskim projekcie FEP 2025-2026.",
+      "Rozpoczynamy kompleksowe wsparcie kompetencji podstawowych i poradnictwo dla 65 mieszkańców Pomorza. FPbG odpowiada za komponent integracyjny i językowy w partnerskim projekcie FEP 2026-2027.",
     body: `Centrum Usług Integracyjnych zapewnia kompleksowe wsparcie dla 65 osób, w tym poradnictwo prawne, psychologiczne oraz ścieżkę rozwoju kompetencji podstawowych. Program realizujemy jako partner projektu Fundusze Europejskie dla Pomorza, z transparentnym raportowaniem efektów.`,
     lead:
-      "Ruszamy z Centrum Usług Integracyjnych - w ramach partnerskiego projektu Fundusze Europejskie dla Pomorza (FEP 2025-2026) zapewniamy mieszkańcom Pomorza kompleksowe wsparcie kompetencji podstawowych oraz poradnictwo. Rolą Fundacji Przyjaźń bez Granic jest komponent integracyjny i językowy.",
+      "Ruszamy z Centrum Usług Integracyjnych - w ramach partnerskiego projektu Fundusze Europejskie dla Pomorza (FEP 2026-2027) zapewniamy mieszkańcom Pomorza kompleksowe wsparcie kompetencji podstawowych oraz poradnictwo. Rolą Fundacji Przyjaźń bez Granic jest komponent integracyjny i językowy.",
     highlights: [
       { label: "Uczestnicy", value: "65 osób" },
       { label: "Wartość projektu", value: "708 250 PLN" },
-      { label: "Okres", value: "2025-2026" },
+      { label: "Okres", value: "2026-2027" },
     ],
     sections: [
       {
