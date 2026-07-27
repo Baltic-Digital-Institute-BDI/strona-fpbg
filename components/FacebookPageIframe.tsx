@@ -43,6 +43,7 @@ export function FacebookPageIframe({
   const containerRef = useRef<HTMLDivElement>(null);
   const [shouldLoad, setShouldLoad] = useState(false);
   const [, setIframeLoaded] = useState(false);
+  const [showHint, setShowHint] = useState(false);
 
   /* Lazy load: ładuje iframe gdy sekcja staje się widoczna (200 px przed wejściem). */
   useEffect(() => {
@@ -60,6 +61,15 @@ export function FacebookPageIframe({
     );
     io.observe(containerRef.current);
     return () => io.disconnect();
+  }, [shouldLoad]);
+
+  /* Po 10 s od zamontowania iframe pokazujemy podpowiedź — nie da się
+     wykryc z zewnatrz, czy FB wyrenderowal timeline (cross-origin), wiec
+     komunikat jest warunkowy ("Nie widzisz wpisow?"). */
+  useEffect(() => {
+    if (!shouldLoad) return;
+    const timer = window.setTimeout(() => setShowHint(true), 10000);
+    return () => window.clearTimeout(timer);
   }, [shouldLoad]);
 
   /* Buduje URL Page Plugin zgodnie z dokumentacją Meta. */
@@ -108,6 +118,18 @@ export function FacebookPageIframe({
           title="Facebook — Fundacja Przyjaźń bez Granic"
           onLoad={() => setIframeLoaded(true)}
         />
+      )}
+
+      {showHint && (
+        <div
+          className="border-t border-primary/10 bg-sand/60 p-3 text-center text-xs text-primary/80"
+          role="note"
+        >
+          Nie widzisz wpisów? Twoja przeglądarka może blokować elementy
+          Facebooka (ochrona przed śledzeniem / pliki cookie innych firm).
+          Sprawdź w ustawieniach prywatności przeglądarki, czy ten element
+          jest blokowany, albo otwórz nasz profil bezpośrednio na Facebooku.
+        </div>
       )}
 
       {/* Link fallback widoczny zawsze pod iframe — gwarantuje dostęp nawet jeśli
