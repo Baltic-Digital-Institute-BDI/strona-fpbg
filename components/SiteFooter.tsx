@@ -16,7 +16,7 @@ export function SiteFooter() {
           <p className="font-semibold text-white">Kontakt</p>
           <p className="text-white/80">{contactInfo.address}</p>
           <p className="text-white/80">{contactInfo.email}</p>
-          <p className="text-white/80">{contactInfo.phone}</p>
+          {contactInfo.phone ? <p className="text-white/80">{contactInfo.phone}</p> : null}
           <p className="text-white/80">{contactInfo.hours}</p>
         </div>
         <div className="space-y-2 text-sm">

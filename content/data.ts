@@ -73,7 +73,7 @@ export const foundationInfo = {
     "Pomorski Hub współpracy międzynarodowej i działań humanitarnych.",
   address: "ul. Hołdu Pruskiego 6, 80-321 Gdańsk",
   email: "kontakt@fundacja-przyjazn.pl",
-  phone: "+48 000 000 000",
+  phone: "",
   motto: "Empatyczni, sprawczy, zorganizowani.",
 };
 
