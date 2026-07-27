@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FacebookFeed } from "@/components/FacebookFeed";
+import { FacebookPageFeed } from "@/components/FacebookPageFeed";
 import { SectionHeading } from "@/components/SectionHeading";
 import { newsPosts } from "@/content/data";
 
@@ -36,8 +36,8 @@ export default function NewsPage() {
         ))}
       </div>
 
-      {/* Sekcja FB Feed - dynamiczny zrzut tablicy Facebooka, uzupełnia statyczne newsy. */}
-      <FacebookFeed />
+      {/* Sekcja FB Feed - Facebook Page Plugin (iframe, auto-aktualizacja) - parytet z bdi-www-3. */}
+      <FacebookPageFeed />
     </div>
   );
 }
