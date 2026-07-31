@@ -112,7 +112,7 @@ export const strategyPillars: StrategyPillar[] = [
     description:
       "Budujemy mosty międzykulturowe w regionie, korzystając z ugruntowanego modelu działania.",
     kpis: [
-      "65 osób objętych kompleksowym wsparciem do 2026 r.",
+      "65 osób objętych kompleksowym wsparciem do 2027 r.",
       "100% wskaźnik kwalifikacji w projekcie FEP",
     ],
     initiatives: [
